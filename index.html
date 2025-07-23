@@ -10,46 +10,70 @@
 <body>
   <canvas data-waves></canvas>
 
-  <!-- Header -->
-  <header>
-    <div class="container" id="header" style="display:flex; justify-content:space-between; align-items:center;">
-      <div class="logo">The Auto Self-Service Garage</div>
-      <nav>
-        <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <!-- Landing -->
+  <section class="landing" id="landing-view">
+    <!-- Header -->
+    <header>
+      <div class="container" id="header">
+        <div class="logo">The Auto Self-Service Garage</div>
+        <nav>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="main-body">
-    <div class="container" id="main-container">
-      <h1>Ever wanted your own garage?</h1>
-      <h1>Now you have one.</h1>
-      <button class="btn-primary">Join the Waitlist</button>
+    <!-- Hero Section -->
+    <div class="hero" id="main-body">
+      <div class="container" id="main-container">
+        <h1>A community auto shop to work on your project car</h1>
+        <button class="btn-primary" id="btn-main">Join the Waitlist</button>
+      </div>
     </div>
   </section>
 
-  <!-- Features -->
-  <section id="features" class="container">
-    <div class="features">
-      <div class="feature">
-        <h3>Robust Analytics</h3>
-        <p>Leverage data-driven insights to make informed decisions and stay ahead of the competition.</p>
-      </div>
-      <div class="feature">
-        <h3>Scalable Architecture</h3>
-        <p>Our solutions grow with your business, ensuring reliability and performance at every stage.</p>
-      </div>
-      <div class="feature">
-        <h3>24/7 Support</h3>
-        <p>Our dedicated team is here to help you around the clock, whenever you need us.</p>
-      </div>
+  <section class="value-prop" id="prop-body">
+    <div class="container frosted-glass" id="prop-container">
+      <h1 id="line1">Ever wanted your own 2-post lift?</h1>
+      <h1 id="line2"><u>Now you have one.</u></h1>
     </div>
   </section>
+
+<!-- Steps -->
+<section id="steps" class="container">
+  <div class="steps">
+    <div class="step">
+      <img src="assets/training.png" alt="Step 1" class="icon">
+      <p>Take Our Lift Satefy Class.</p>
+    </div>
+
+    <div class="arrow">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-arrow">
+        <path d="M5 12h14M13 5l6 7-6 7" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </div>
+
+    <div class="step">
+      <img src="assets/certificate.png" alt="Step 2" class="icon">
+      <p>Become a Member.</p>
+    </div>
+
+    <div class="arrow">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-arrow">
+        <path d="M5 12h14M13 5l6 7-6 7" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </div>
+
+    <div class="step">
+      <img src="assets/car-lift.png" alt="Step 3" class="icon">
+      <p>24/7 Access to Your Own Garage.</p>
+    </div>
+
+  </div>
+</section>
 
   <!-- Call to Action -->
   <section class="cta">
@@ -71,6 +95,11 @@
         <a href="#">Facebook</a>
       </div>
     </div>
+    <!-- Logos by:
+    <a href="https://www.flaticon.com/free-icons/car-lift" title="car lift icons">Car lift icons created by Awicon - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/training" title="training icons">Training icons created by SBTS2018 - Flaticon</a>
+    -->
   </footer>
   <script src="data-waves.js"></script>
 
